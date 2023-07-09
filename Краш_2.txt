@@ -1,0 +1,20 @@
+2023-04-10 04:03:44.965 22271-22271 AndroidRuntime          com.oxiwyle.modernage2 
+E  FATAL EXCEPTION: main
+Process: com.oxiwyle.modernage2, PID: 22271
+java.lang.ArithmeticException: Division by zero
+
+ at java.math.BigDecimal.divide(BigDecimal.java:1697)
+ at com.oxiwyle.modernage2.adapters.HelpListViewAdapter$2.onOneClick(HelpListViewAdapter.java:182)
+ at com.oxiwyle.modernage2.utils.OnOneClickListener.onClick(OnOneClickListener.java:36)
+ at android.view.View.performClick(View.java:7506)
+ at android.view.View.performClickInternal(View.java:7483)
+ at android.view.View.-$$Nest$mperformClickInternal(Unknown Source:0)
+ at android.view.View$PerformClick.run(View.java:29341)
+ at android.os.Handler.handleCallback(Handler.java:942)
+ at android.os.Handler.dispatchMessage(Handler.java:99)
+ at android.os.Looper.loopOnce(Looper.java:201)
+ at android.os.Looper.loop(Looper.java:288)
+ at android.app.ActivityThread.main(ActivityThread.java:7920)
+ at java.lang.reflect.Method.invoke(Native Method)
+ at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:548)
+ at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:942)

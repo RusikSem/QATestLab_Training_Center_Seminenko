@@ -1,0 +1,21 @@
+2023-04-09 14:15:04.884 12216-12216 AndroidRuntime          com.oxiwyle.modernage2               
+ FATAL EXCEPTION: main
+ Process: com.oxiwyle.modernage2, PID: 14221
+ java.lang.ArithmeticException: Division by zero
+   at java.math.BigDecimal.divide(BigDecimal.java:1697)
+   at com.oxiwyle.modernage2.dialogs.ChangeCountryNameDialog.onCreateView(ChangeCountryNameDialog.java:108)
+   at androidx.fragment.app.Fragment.performCreateView(Fragment.java:2963)
+   at androidx.fragment.app.DialogFragment.performCreateView(DialogFragment.java:489)
+   at androidx.fragment.app.FragmentStateManager.createView(FragmentStateManager.java:518)
+   at androidx.fragment.app.FragmentStateManager.moveToExpectedState(FragmentStateManager.java:282)
+   at androidx.fragment.app.FragmentManager.executeOpsTogether(FragmentManager.java:2189)
+   at androidx.fragment.app.FragmentManager.removeRedundantOperationsAndExecute(FragmentManager.java:2100)
+   at androidx.fragment.app.FragmentManager.execPendingActions(FragmentManager.java:2002)
+   at androidx.fragment.app.FragmentManager$5.run(FragmentManager.java:524)
+   at android.os.Handler.handleCallback(Handler.java:942)
+   at android.os.Handler.dispatchMessage(Handler.java:99)
+   at android.os.Looper.loopOnce(Looper.java:201)
+   at android.os.Looper.loop(Looper.java:288)
+   at android.app.ActivityThread.main(ActivityThread.java:7920)
+   at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:548)
+   at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:942)

@@ -1,0 +1,80 @@
+2023-05-07 20:55:28.523 27238-27238 AndroidRuntime          com.digitalindeed.converter          E  FATAL EXCEPTION: main
+                                                                                                    Process: com.digitalindeed.converter, PID: 27238
+                                                                                                    java.lang.NullPointerException: Attempt to invoke virtual method 'java.util.List com.digitalindeed.converter.models.Conversion.getUnits()' on a null object reference
+                                                                                                    	at com.digitalindeed.converter.util.Conversions.hasCurrency(Conversions.java:710)
+                                                                                                    	at com.digitalindeed.converter.presenters.ConversionPresenter.onGetUnitsToDisplay(ConversionPresenter.java:180)
+                                                                                                    	at com.digitalindeed.converter.fragments.ConversionFragment.onViewStateRestored(ConversionFragment.java:217)
+                                                                                                    	at androidx.fragment.app.Fragment.restoreViewState(Fragment.java:647)
+                                                                                                    	at androidx.fragment.app.Fragment.restoreViewState(Fragment.java:3010)
+                                                                                                    	at androidx.fragment.app.Fragment.performActivityCreated(Fragment.java:3001)
+                                                                                                    	at androidx.fragment.app.FragmentStateManager.activityCreated(FragmentStateManager.java:580)
+                                                                                                    	at androidx.fragment.app.FragmentStateManager.moveToExpectedState(FragmentStateManager.java:285)
+                                                                                                    	at androidx.fragment.app.FragmentManager.executeOpsTogether(FragmentManager.java:2189)
+                                                                                                    	at androidx.fragment.app.FragmentManager.removeRedundantOperationsAndExecute(FragmentManager.java:2100)
+                                                                                                    	at androidx.fragment.app.FragmentManager.execPendingActions(FragmentManager.java:2002)
+                                                                                                    	at androidx.fragment.app.FragmentManager.dispatchStateChange(FragmentManager.java:3138)
+                                                                                                    	at androidx.fragment.app.FragmentManager.dispatchActivityCreated(FragmentManager.java:3072)
+                                                                                                    	at androidx.fragment.app.FragmentController.dispatchActivityCreated(FragmentController.java:251)
+                                                                                                    	at androidx.fragment.app.FragmentActivity.onStart(FragmentActivity.java:502)
+                                                                                                    	at androidx.appcompat.app.AppCompatActivity.onStart(AppCompatActivity.java:246)
+                                                                                                    	at com.digitalindeed.converter.activities.CurrencyActivity.onStart(CurrencyActivity.java:70)
+                                                                                                    	at android.app.Instrumentation.callActivityOnStart(Instrumentation.java:1456)
+                                                                                                    	at android.app.Activity.performStart(Activity.java:8152)
+                                                                                                    	at android.app.ActivityThread.handleStartActivity(ActivityThread.java:3746)
+                                                                                                    	at android.app.servertransaction.TransactionExecutor.performLifecycleSequence(TransactionExecutor.java:221)
+                                                                                                    	at android.app.servertransaction.TransactionExecutor.cycleToPath(TransactionExecutor.java:201)
+                                                                                                    	at android.app.servertransaction.TransactionExecutor.executeLifecycleState(TransactionExecutor.java:173)
+                                                                                                    	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:97)
+                                                                                                    	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2290)
+                                                                                                    	at android.os.Handler.dispatchMessage(Handler.java:106)
+                                                                                                    	at android.os.Looper.loopOnce(Looper.java:241)
+                                                                                                    	at android.os.Looper.loop(Looper.java:359)
+                                                                                                    	at android.app.ActivityThread.main(ActivityThread.java:8050)
+                                                                                                    	at java.lang.reflect.Method.invoke(Native Method)
+                                                                                                    	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:548)
+                                                                                                    	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1009)
+
+
+
+
+
+2023-05-09 12:14:13.498 27632-27632 AndroidRuntime          com.digitalindeed.converter          E  FATAL EXCEPTION: main
+                                                                                                    Process: com.digitalindeed.converter, PID: 27632
+                                                                                                    java.lang.NullPointerException: Attempt to invoke virtual method 'void android.widget.RadioButton.setChecked(boolean)' on a null object reference
+                                                                                                    	at com.digitalindeed.converter.fragments.ConversionFragment.swapUnits(ConversionFragment.java:402)
+                                                                                                    	at com.digitalindeed.converter.fragments.ConversionFragment.access$000(ConversionFragment.java:41)
+                                                                                                    	at com.digitalindeed.converter.fragments.ConversionFragment$2.onClick(ConversionFragment.java:169)
+                                                                                                    	at android.view.View.performClick(View.java:7461)
+                                                                                                    	at android.view.View.performClickInternal(View.java:7438)
+                                                                                                    	at android.view.View.access$3700(View.java:835)
+                                                                                                    	at android.view.View$PerformClick.run(View.java:28708)
+                                                                                                    	at android.os.Handler.handleCallback(Handler.java:938)
+                                                                                                    	at android.os.Handler.dispatchMessage(Handler.java:99)
+                                                                                                    	at android.os.Looper.loopOnce(Looper.java:241)
+                                                                                                    	at android.os.Looper.loop(Looper.java:359)
+                                                                                                    	at android.app.ActivityThread.main(ActivityThread.java:8050)
+                                                                                                    	at java.lang.reflect.Method.invoke(Native Method)
+                                                                                                    	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:548)
+                                                                                                    	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1009)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
